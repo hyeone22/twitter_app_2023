@@ -45,9 +45,6 @@ function Profiles({userObj}) {
     setNewDisplayName(value);
   }
 
-
-
-
   return (
     <div className='container'>
        <form onSubmit={onSubmit} className='profileForm'>

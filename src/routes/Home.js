@@ -3,16 +3,13 @@ import { collection, onSnapshot, query, orderBy  } from "firebase/firestore";
 import { db } from 'fbase';
 import Tweet from 'components/Tweet';
 
-
 import TweetInsert from 'components/TweetInsert';
-
 
 function Home({userObj}) {
   console.log(userObj);
   
   const [tweets, setTweets] = useState([]);
   
-
  /*  const getTweets = async() => {
   const querySnapshot = await getDocs(collection(db, "tweets"));
   querySnapshot.forEach((doc) => {
@@ -34,7 +31,6 @@ function Home({userObj}) {
       setTweets(newArray);
     });
   },[]);
-
 
   return (
     <div className='container'>

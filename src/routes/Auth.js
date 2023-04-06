@@ -6,13 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AuthForm from 'components/Authform';
 import "styles/auth.scss";
 
-
-
-
 function Auth() {
-
-
-  
 
   const onSocialClick = async (e) => {  //구글,깃허브 회원가입
     console.log('e.target.name->',e.target.name);
