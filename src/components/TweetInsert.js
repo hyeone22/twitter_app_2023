@@ -82,7 +82,7 @@ function TweetInsert({userObj}) {
       <div className='Insertform__attachment'>
         <img src={attachment} style={{backgroundImage:attachment}}  alt="" />
         <div className='Insertform__clear' onClick={onclearAttachment}>
-          <span>Remove</span>
+          <span>Removeeee</span>
           <FontAwesomeIcon icon="fa-solid fa-xmark" />
           </div>
       </div>
